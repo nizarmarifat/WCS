@@ -1,0 +1,74 @@
+#portfolio{
+   
+    background-repeat: no-repeat !important;
+    background-position-x: 98% !important;
+    background-position-y: bottom !important;
+}
+.img-hover {
+    filter: grayscale(100%);
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   
+}
+.img-hover:hover{
+    transition: 0.3s;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.2);
+    filter: none;
+}
+.form-wrapper{
+    border-radius: 100px 20px 20px 20px !important;
+    background-color: #DFD7F9 !important;
+    background-image: none,url('../../images/dekor-portfolio-2.png');
+    background-repeat: no-repeat,no-repeat !important;
+    background-position: left bottom,right top !important;
+    padding: 50px 50px 50px 50px !important;
+}
+
+.form-wrapper h3{
+    color: #5E6282;
+    font-size: 1rem;
+    padding: 20px 0;
+}
+.email{
+    color: #39425D;
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    background: #fff;
+    border: none;
+}
+.email i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.subscribe{
+    display: inline-block;
+    width: 200px;
+    padding: 20px 10px;
+    background: linear-gradient(180deg,#FF946D 0%, #FF7D68 100%);
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+@media (min-width: 800px){
+    .form-wrapper h3 {
+        font-size: 1.75rem;
+        color: #5E6282;
+        padding: 30px 0 70px 0;
+    }
+}    
+@media (min-width: 530px){
+    .email {
+        padding: 20px 250px 20px 20px;
+    }
+}
+@media (min-width: 800px){
+    .form-wrapper {
+        background-image: url('../../images/dekor-portfolio.png'),url('../../images/dekor-portfolio-2.png');
+        padding: 50px 50px 90px 50px !important;
+    }
+}

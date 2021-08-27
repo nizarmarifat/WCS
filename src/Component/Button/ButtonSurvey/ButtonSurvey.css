@@ -1,0 +1,13 @@
+.survey{
+    margin-right: 40px;
+    width: 35%;
+    border: none;
+    height: auto;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #F1A501;
+}
+.survey:hover{
+    transition: 0.2s ease;
+    transform: scale(0.9);
+}

@@ -1,0 +1,113 @@
+/* Navbar */
+.navbar .container{
+    display: block;
+}
+.navbar {
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    z-index: 2;
+    padding: 20px 0;
+    transition: all 0.3s ease;
+}
+.navbar .logo img{
+    width: 80px;
+}
+.navbar.sticky {
+    background:#f3f5f7;
+    padding: 5px 0;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.425);
+    z-index: 3;
+}
+.navbar .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu-list {
+    display: inline-flex;
+    margin: 0;
+  }
+.menu-list li {
+    list-style: none;
+    padding: 5px 30px;
+}
+.menu-list li:nth-child(7){
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.menu-list li a {
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.menu-list .cancel-btn {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.icon {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+  }
+/* Navbar Responsive */
+@media (max-width: 1230px) {
+    .content {
+      padding: 0 60px;
+    }
+}
+@media (max-width: 1100px) {
+    .content {
+      padding: 0 40px;
+    }
+}
+@media (max-width: 900px) {
+    .content {
+      padding: 0 30px;
+    }
+    body.disabled {
+        overflow: hidden;
+      }
+      .icon {
+        display: block;
+      }
+      .icon.hide {
+        display: none;
+      }
+      .navbar .menu-list {
+        position: fixed;
+        width: 100%;
+        left: -100%;
+        top: 0px;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        background: #e9ecef;
+        transition: all 0.3s ease;
+      }
+      .navbar.show .menu-list {
+        left: 0%;
+      }
+      .navbar .menu-list li {
+        padding: 10px 0;
+      }
+      .navbar .menu-list li:nth-child(7){
+          width: 50%;
+          margin: auto;
+          
+      }
+      .navbar .menu-list li a {
+        font-size: 18px;
+        margin-left: -100%;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      }
+      .navbar.show .menu-list li a {
+        margin-left: 0px;
+      }
+  }
+  @media (max-width: 868px) {
+    
+  }

@@ -1,0 +1,134 @@
+footer{
+    background-image: url('../../images/dekor-portfolio-3.png');
+    background-repeat: no-repeat;
+    background-position-x: 98%;
+    background-position-y: -70px;
+}
+.footer h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footer ul{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px !important;
+}
+.footer ul li,.footer p{
+    color: #5E6282;
+    font-weight: bold;
+    font-size: 15px;
+}
+.get-on{
+    display: inline-block;
+    width: 100%;
+}
+.facebook{
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 18px;
+    cursor: pointer;
+}
+.instagram{
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 14px;
+    cursor: pointer;
+
+}
+.twitter{
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+.facebook:hover,.twitter:hover,.instagram:hover{
+    transition: 0.2s ease;
+    background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);;
+    color: #fff;
+    transform: scale(0.9);
+}
+
+
+.google-play-inline{
+    background: none;
+    display: inline-block;
+    border: none;
+}
+.app-store-inline{
+    background: none;
+    border: none;
+    display: inline-block;
+}
+.google-play{
+    width: 120px;
+    padding: 8px;
+    background-color: #000;
+    color: white;
+    border-radius: 50px;
+    display: table;
+}
+.google-play .box-img{
+    display: table-cell;
+    vertical-align: top;
+    width:20px;
+    position: relative;
+}
+.google-play .box-img img{
+    width: 30px;
+    height: 27px;
+}
+.google-play .box-title{
+    font-size: 10px;
+}
+.app-store{
+    width: 120px;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    border-radius: 50px;
+    display: table;
+}
+.app-store .box-img{
+    display: table-cell;
+    vertical-align: top;
+    width:20px;
+    position: relative;
+}
+.app-store .box-img img{
+    width: 30px;
+    height: 27px;
+}
+
+.app-store .box-title{
+    font-size: 8px;
+}
+.title-apple-store{
+    font-size: 10px !important;
+}
+footer p{
+    font-size: 15px;
+    color: #5E6282;
+    font-weight: 500;
+}
+@media (min-width: 768px){
+    .footer img {
+        width: 80%;
+        height: 80%;
+    }
+}
+@media (max-width: 768px){
+    .footer img {
+        width: 30%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+@media (min-width:600px){
+    .footer .img{
+        text-align: center;
+    }
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        width: auto;
+    }
+}
+
